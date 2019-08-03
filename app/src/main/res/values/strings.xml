@@ -5,7 +5,7 @@
 
 
     <string name="vehicleNo_txt">Enter your vehicle number...</string>
-    <string name="ServiceLable">Your Service</string>
+    <string name="ServiceLable">" Service"</string>
     <string name="enterName">EnterName</string>
     <string name="VehicleText">Vehicle Type</string>
 
@@ -40,6 +40,9 @@
     <string name="addServiceButton">OK</string>
     <string name="ServiceNameLable">Service Name</string>
     <string name="ServiceTypeLable">Service Type</string>
+    <string name="OKBUTTON">OK</string>
+    <string name="EmlpoyeeNOTextView">Amount Of Employees</string>
+    <string name="PriceText">Needed Price</string>
 
 
 </resources>

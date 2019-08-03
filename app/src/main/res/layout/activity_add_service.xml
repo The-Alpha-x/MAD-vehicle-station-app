@@ -13,21 +13,23 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/bgapp" />
 
     <Spinner
         android:id="@+id/planets_spinner"
-        android:layout_width="223dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="39dp"
+        android:layout_width="206dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:entries="@array/planets_array"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintStart_toEndOf="@+id/textView14"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.968"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
 
     <TextView
@@ -51,41 +53,44 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="32dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="164dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/ServiceNameLable"
-        android:textSize="20sp"
+        android:textSize="13sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
         android:id="@+id/editText3"
-        android:layout_width="221dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="39dp"
-        android:layout_marginEnd="31dp"
+        android:layout_width="218dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="18dp"
+
         android:ems="10"
-
         android:fontFamily="sans-serif-black"
-        android:inputType="textPersonName"
 
+        android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView6" />
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="76dp"
-        android:text="@string/addServiceButton"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/darker_gray"
+        android:text="@string/OKBUTTON"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/planets_spinner1"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView14"
@@ -94,8 +99,8 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="132dp"
         android:fontFamily="sans-serif-black"
-        android:text="@string/ServiceTypeLable"
-        android:textSize="20sp"
+        android:text="@string/EmlpoyeeNOTextView"
+        android:textSize="13sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -106,25 +111,66 @@
         android:layout_marginStart="20dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/ServiceTypeLable"
-        android:textSize="20sp"
+        android:textSize="13sp"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="350dp"
         tools:ignore="MissingConstraints" />
 
     <Spinner
         android:id="@+id/planets_spinner1"
-        android:layout_width="223dp"
-        android:layout_height="56dp"
+        android:layout_width="207dp"
+        android:layout_height="49dp"
         android:layout_marginStart="39dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:entries="@array/EmplyeesNO"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView14"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toEndOf="@+id/textView14"
-        app:layout_constraintTop_toBottomOf="@+id/planets_spinner"
-        app:layout_constraintVertical_bias="0.076"
         tools:ignore="DuplicateIds" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="193dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ee" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/PriceText"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.494" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="207dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView16" />
+
 
 </android.support.constraint.ConstraintLayout>
