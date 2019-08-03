@@ -5,4 +5,17 @@
     <string name="name_txt">Enter your name....</string>
     <string name="vehicleNo_label">Vehicle Number</string>
     <string name="vehicleNo_txt">Enter your vehicle number...</string>
+    <string name="ServiceLable">Your Service</string>
+    <string name="enterName">EnterName</string>
+    <string name="VehicleText">Vehicle Type</string>
+    <string name="Servicetype">Service Type</string>
+
+
+        <string-array name="planets_array">
+            <item>Full Service</item>
+            <item>Half Service</item>
+
+        </string-array>
+
+
 </resources>
