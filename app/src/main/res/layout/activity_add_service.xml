@@ -7,45 +7,57 @@
 
     tools:context=".AddService">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bgapp" />
+
+    <Spinner
+        android:id="@+id/planets_spinner"
+        android:layout_width="223dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="8dp"
+        android:entries="@array/planets_array"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="64dp"
         android:layout_marginEnd="255dp"
-        android:layout_marginBottom="35dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/ServiceLable"
-        android:textColor="@color/colorAccent"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        android:textColor=" #ffffff"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="294dp"
-        android:layout_height="273dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:srcCompat="@drawable/service"
-        tools:srcCompat="@drawable/ee" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="32dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="43dp"
+        android:layout_marginTop="164dp"
         android:fontFamily="sans-serif-black"
-        android:text="@string/enterName"
+        android:text="@string/ServiceNameLable"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
         android:id="@+id/editText3"
@@ -54,6 +66,8 @@
         android:layout_marginStart="39dp"
         android:layout_marginEnd="31dp"
         android:ems="10"
+
+        android:fontFamily="sans-serif-black"
         android:inputType="textPersonName"
 
         app:layout_constraintBaseline_toBaselineOf="@+id/textView6"
@@ -61,61 +75,56 @@
         app:layout_constraintHorizontal_bias="0.117"
         app:layout_constraintStart_toEndOf="@+id/textView6" />
 
-    <TextView
-        android:id="@+id/textView7"
+
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="46dp"
+        android:layout_marginBottom="76dp"
+        android:text="@string/addServiceButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="132dp"
         android:fontFamily="sans-serif-black"
-        android:text="@string/VehicleText"
+        android:text="@string/ServiceTypeLable"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="46dp"
+        android:layout_marginStart="20dp"
         android:fontFamily="sans-serif-black"
-        android:text="@string/Servicetype"
+        android:text="@string/ServiceTypeLable"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-
-    <EditText
-        android:id="@+id/editText6"
-        android:layout_width="223dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="39dp"
-        android:layout_marginTop="16dp"
-
-        android:layout_marginEnd="31dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
-
-    <Spinner
-        android:id="@+id/planets_spinner"
-        android:layout_width="224dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="29dp"
-        android:entries="@array/planets_array"
-        android:spinnerMode="dropdown"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/editText6"
+        tools:layout_editor_absoluteY="350dp"
         tools:ignore="MissingConstraints" />
 
-
-
+    <Spinner
+        android:id="@+id/planets_spinner1"
+        android:layout_width="223dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:entries="@array/EmplyeesNO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/planets_spinner"
+        app:layout_constraintVertical_bias="0.076"
+        tools:ignore="DuplicateIds" />
 
 </android.support.constraint.ConstraintLayout>
