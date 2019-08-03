@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Service Station (Customer)</string>
+    <string name="Title">Add your services</string>
+    <string name="name_label">Customer Name</string>
+    <string name="name_txt">Enter your name....</string>
+    <string name="vehicleNo_label">Vehicle Number</string>
+    <string name="vehicleNo_txt">Enter your vehicle number...</string>
+</resources>
