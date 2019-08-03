@@ -5,4 +5,24 @@
     <string name="name_txt">Enter your name....</string>
     <string name="vehicleNo_label">Vehicle Number</string>
     <string name="vehicleNo_txt">Enter your vehicle number...</string>
+    <string name="telepohone_label">Mobile Number</string>
+    <string name="telephone_txt">Enter mobile number....</string>
+    <string name="add_service_title">Add your service</string>
+    <string name="service1_label">Service 01</string>
+    <string name="service2_label">Service 02</string>
+    <string name="service3_label">Service 03</string>
+    <string name="service3_txt">Select your service 01</string>
+    <string name="total_label">Your Total Bill</string>
+    <string name="totalcalc_label">Total</string>
+    <string name="totalcalc">Rs.0.00</string>
+    <string name="select_service">Select your service</string>
+
+    <string-array name="service_array">
+        <item>Car wash</item>
+        <item>Wax</item>
+        <item>Cut n' polish</item>
+        <item>Oil change</item>
+    </string-array>
+    <string name="confirm_btn">CONFIRM</string>
+
 </resources>
