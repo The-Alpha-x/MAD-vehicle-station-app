@@ -43,6 +43,8 @@
     <string name="OKBUTTON">OK</string>
     <string name="EmlpoyeeNOTextView">Amount Of Employees</string>
     <string name="PriceText">Needed Price</string>
+    <string name="name_label">Customer Name</string>
+    <string name="vehicleNo_label">Vehicle Number</string>
 
 
 </resources>
