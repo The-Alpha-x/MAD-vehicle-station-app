@@ -39,11 +39,12 @@
 
 
     <string name="confirm_btn">CONFIRM</string>
-    <string name="aftr_service_cust_title">Check the Service Progress</string>
+    <string name="aftr_service_cust_title">Check your total bill</string>
     <string name="update_progress">Update the progress</string>
-    <string name="update_progress_btn">UPDATE</string>
+    <string name="update_progress_btn">GO BACK</string>
     <string name="done">DONE</string>
     <string name="payment_label">Payment</string>
     <string name="Rate_service">Rate the service</string>
+    <string name="update">UPDATE</string>
 
 </resources>
