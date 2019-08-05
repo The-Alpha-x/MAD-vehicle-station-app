@@ -87,9 +87,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@android:color/darker_gray"
+
         android:onClick="onButtonClick"
         android:text="@string/OKBUTTON"
+        android:background="#1e90ff"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -105,6 +106,7 @@
         android:fontFamily="sans-serif-black"
         android:text="@string/EmlpoyeeNOTextView"
         android:textSize="13sp"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
