@@ -45,6 +45,9 @@
     <string name="Vehicletext">The Vehicle Station Service App</string>
     <string name="SignInbtn">Sign In</string>
     <string name="Loginbtn">Login</string>
+    <string name="DashboardText">DASHBOARD</string>
+    <string name="AddServicebtn">Add Service</string>
+    <string name="AddItemBtn">Add Item</string>
 
 
 </resources>
