@@ -3,7 +3,6 @@
     <string name="Title">Add your services</string>
 
 
-
     <string name="vehicleNo_txt">Enter your vehicle number...</string>
     <string name="ServiceLable">" Service"</string>
     <string name="enterName">EnterName</string>
@@ -11,17 +10,14 @@
 
 
     <string-array name="planets_array">
-    <item>Vehicle Wash</item>
-    <item>Interior and Exterior Detailing</item>
-    <item>Full Service</item>
-    <item>Hybrid services</item>
-    <item>Wheel Alignment</item>
+        <item>Vehicle Wash</item>
+        <item>Interior and Exterior Detailing</item>
+        <item>Full Service</item>
+        <item>Hybrid services</item>
+        <item>Wheel Alignment</item>
 
 
-
-
-
-</string-array>
+    </string-array>
 
     <string-array name="EmplyeesNO">
         <item>1</item>
@@ -30,9 +26,6 @@
         <item>4</item>
         <item>5</item>
         <item>6</item>
-
-
-
 
 
     </string-array>
@@ -45,6 +38,7 @@
     <string name="PriceText">Needed Price</string>
     <string name="name_label">Customer Name</string>
     <string name="vehicleNo_label">Vehicle Number</string>
+    <string name="insertTextView">Insert Successfully !!</string>
 
 
 </resources>
