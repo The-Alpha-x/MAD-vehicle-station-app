@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButtonClick(View v){
-        Intent myIntent = new Intent(getBaseContext(), AddService.class);
+        Intent myIntent = new Intent(getBaseContext(), SplashScreen.class);
         startActivity(myIntent);
     }
 }

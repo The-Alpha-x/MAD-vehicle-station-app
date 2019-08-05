@@ -40,6 +40,11 @@
     <string name="vehicleNo_label">Vehicle Number</string>
     <string name="insertTextView">Insert Successfully !!</string>
     <string name="YourServiceTextview">Your Services</string>
+    <string name="LogInBtnSpashScreen">Login</string>
+    <string name="Signupbtn">Sign Up</string>
+    <string name="Vehicletext">The Vehicle Station Service App</string>
+    <string name="SignInbtn">Sign In</string>
+    <string name="Loginbtn">Login</string>
 
 
 </resources>
