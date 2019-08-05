@@ -48,6 +48,7 @@
     <string name="DashboardText">DASHBOARD</string>
     <string name="AddServicebtn">Add Service</string>
     <string name="AddItemBtn">Add Item</string>
+    <string name="Updatebtn">Edit Service</string>
 
 
 </resources>
