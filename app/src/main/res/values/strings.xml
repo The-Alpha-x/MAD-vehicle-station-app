@@ -15,14 +15,35 @@
     <string name="total_label">Your Total Bill</string>
     <string name="totalcalc_label">Total</string>
     <string name="totalcalc">Rs.0.00</string>
-    <string name="select_service">Select your service</string>
 
+    <string name="select_service">Select your service</string>
     <string-array name="service_array">
         <item>Car wash</item>
         <item>Wax</item>
         <item>Cut n' polish</item>
         <item>Oil change</item>
     </string-array>
+
+    <string name="progress_services">Check_Progress</string>
+    <string-array name="progress_update">
+        <item>Not Started</item>
+        <item>In progress</item>
+        <item>Completed</item>
+    </string-array>
+
+    <string name="payment">Payment_status</string>
+    <string-array name="payment_status">
+        <item>Not paid</item>
+        <item>Paid</item>
+    </string-array>
+
+
     <string name="confirm_btn">CONFIRM</string>
+    <string name="aftr_service_cust_title">Check the Service Progress</string>
+    <string name="update_progress">Update the progress</string>
+    <string name="update_progress_btn">UPDATE</string>
+    <string name="done">DONE</string>
+    <string name="payment_label">Payment</string>
+    <string name="Rate_service">Rate the service</string>
 
 </resources>
