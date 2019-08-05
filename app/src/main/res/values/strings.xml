@@ -39,6 +39,7 @@
     <string name="name_label">Customer Name</string>
     <string name="vehicleNo_label">Vehicle Number</string>
     <string name="insertTextView">Insert Successfully !!</string>
+    <string name="YourServiceTextview">Your Services</string>
 
 
 </resources>
