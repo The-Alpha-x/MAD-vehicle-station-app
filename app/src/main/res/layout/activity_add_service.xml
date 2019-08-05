@@ -88,6 +88,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@android:color/darker_gray"
+        android:onClick="onButtonClick"
         android:text="@string/OKBUTTON"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"

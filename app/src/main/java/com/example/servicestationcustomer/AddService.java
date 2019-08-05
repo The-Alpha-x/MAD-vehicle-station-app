@@ -12,5 +12,9 @@ public class AddService extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_service);
     }
+    public void onButtonClick(View v){
+        Intent myIntent = new Intent(getBaseContext(), InsertSuccessFully.class);
+        startActivity(myIntent);
+    }
 
 }
