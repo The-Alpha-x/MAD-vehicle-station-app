@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen"></activity>
         <activity android:name=".InsertSuccessFully" />
         <activity android:name=".AddService" />
         <activity android:name=".MainActivity">
