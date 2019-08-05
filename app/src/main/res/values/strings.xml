@@ -49,6 +49,7 @@
     <string name="AddServicebtn">Add Service</string>
     <string name="AddItemBtn">Add Item</string>
     <string name="Updatebtn">Edit Service</string>
+    <string name="updateServiceview">Edit Service</string>
 
 
 </resources>

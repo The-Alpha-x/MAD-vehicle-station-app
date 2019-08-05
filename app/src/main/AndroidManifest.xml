@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Dashboard"></activity>
+        <activity android:name=".updateservice"></activity>
+        <activity android:name=".Dashboard" />
         <activity android:name=".SplashScreen" />
         <activity android:name=".InsertSuccessFully" />
         <activity android:name=".AddService" />
