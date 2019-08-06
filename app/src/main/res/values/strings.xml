@@ -20,7 +20,7 @@
     <string-array name="service_array">
         <item>Car wash</item>
         <item>Wax</item>
-        <item>Cut n' polish</item>
+        <item>Cut and polish</item>
         <item>Oil change</item>
     </string-array>
 
@@ -37,7 +37,8 @@
         <item>Paid</item>
     </string-array>
 
-
+    <string name="name_label">Customer Name</string>
+    <string name="vehicleNo_label">Vehicle Number</string>
     <string name="confirm_btn">CONFIRM</string>
     <string name="aftr_service_cust_title">Check your total bill</string>
     <string name="update_progress">Update the progress</string>
@@ -46,5 +47,6 @@
     <string name="payment_label">Payment</string>
     <string name="Rate_service">Rate the service</string>
     <string name="update">UPDATE</string>
+    <string name="update_service_cust_title">Update your purchased services</string>
 
 </resources>
