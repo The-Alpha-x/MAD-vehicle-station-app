@@ -13,7 +13,7 @@ public class InsertSuccessFully extends AppCompatActivity {
         setContentView(R.layout.activity_insert_success_fully);
     }
     public void onButtonClick(View v){
-        Intent myIntent = new Intent(getBaseContext(), updateservice.class);
+        Intent myIntent = new Intent(this, updateservice.class);
         startActivity(myIntent);
     }
 }
